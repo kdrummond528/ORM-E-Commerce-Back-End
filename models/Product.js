@@ -20,6 +20,16 @@ Product.init(
       type: DataTypes.STRING,
       allowNull: false
     },
+    price: {
+      type: DataTypes.DECIMAL,
+      allowNull: false,
+      validate: {
+        isDecimal: true
+      }
+    },
+
+
+
   },
   {
     sequelize,
@@ -27,7 +37,6 @@ Product.init(
     freezeTableName: true,
     underscored: true,
     modelName: 'product',
-  }
-);
+  });
 
 module.exports = Product;
