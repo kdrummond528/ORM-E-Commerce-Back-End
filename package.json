@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/kdrummond528/ORM-E-Commerce-Back-End.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Karina Drummond",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.3"
